@@ -15,7 +15,7 @@ class InfluxDBService:
 
     def __init__(self):
         self.db = None
-        self.local_path = "D:\\DevProject\\PythonProject\\FaultDiagnosis\\influxdb-1.7.4\\influxd.exe"
+        self.local_path = ".\\asset\\influxdb-1.7.4\\influxd.exe"
         self.data_path = " C:\\Users\\<YourUser>\\.influxdb\\data"
         self.user_name = os.getenv('INFLUX_USER') or 'admin'
         self.password = os.getenv('INFLUX_PASSWORD') or 'admin'

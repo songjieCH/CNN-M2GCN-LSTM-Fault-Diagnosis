@@ -14,7 +14,7 @@ from matplotlib.figure import Figure
 
 from modbus import ModbusService
 from InfluxDB import InfluxDBService
-from mymodel.train import Trainer, Predictor
+from train import Trainer, Predictor
 import config
 import logging
 logging.getLogger('matplotlib').setLevel(logging.WARNING)
